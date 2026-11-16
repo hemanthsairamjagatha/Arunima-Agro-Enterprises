@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 75" width="280" height="55">
+  <defs>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#166534;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D401C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Left Icon Emblem Badge -->
+  <g transform="translate(6, 7)" filter="url(#shadow)">
+    <!-- Rounded Shield Background -->
+    <rect width="60" height="60" rx="14" fill="url(#badgeGrad)" stroke="#F59E0B" stroke-width="1.5" />
+    
+    <!-- Golden Wheat Leaves -->
+    <path d="M16 46 C16 30 26 20 40 16 C34 26 33 36 33 46 Z" fill="url(#goldGrad)" opacity="0.95" />
+    <path d="M44 46 C44 30 34 20 20 16 C26 26 27 36 27 46 Z" fill="url(#goldGrad)" opacity="0.95" />
+    
+    <!-- Clean Crisp White 'A' Monogram -->
+    <path d="M30 15 L46 48 H37.5 L30 31.5 L22.5 48 H14 Z" fill="#FFFFFF" />
+    <polygon points="30,22 34,31 26,31" fill="#0D401C" />
+    
+    <!-- Central Golden Sprout / Seed -->
+    <circle cx="30" cy="48" r="4.5" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Right Typography Section -->
+  <g transform="translate(78, 0)">
+    <!-- Primary Line: ARUNIMA AGRO in Pure Crisp White -->
+    <text x="0" y="34" 
+          font-family="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-size="22" 
+          font-weight="800" 
+          fill="#FFFFFF" 
+          letter-spacing="0.8">ARUNIMA AGRO</text>
+    
+    <!-- Secondary Line: ENTERPRISES in Brilliant High-Contrast Gold -->
+    <text x="1" y="56" 
+          font-family="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-size="13.5" 
+          font-weight="700" 
+          fill="#F59E0B" 
+          letter-spacing="3.2">ENTERPRISES</text>
+  </g>
+</svg>
